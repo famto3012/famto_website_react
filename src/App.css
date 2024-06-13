@@ -1,6 +1,6 @@
 #root {
-  /* max-width: 1280px; */
-  margin: 0 ;
+  font-size: 26px;
+  margin: 0 auto;
   /* padding: 2rem; */
   text-align: center;
   font-family: Poppins;
@@ -43,8 +43,6 @@
   color: #888;
 }
 
-
-
 .parent {
   position: relative;
   top: 0;
@@ -55,8 +53,6 @@
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.3);
-
-  /* opacity: 50%; */
 }
 
 .fill::after {
@@ -65,9 +61,9 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 99%;
-  background-color: black; /* Change the color as needed */
-  opacity: 0.3; /* Adjust the opacity to 30% */
+  height: 100%;
+  background-color: black; 
+  opacity: 0.3; 
 }
 
 .fill1::after {
@@ -76,9 +72,9 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 44.6%;
-  background-color: black; /* Change the color as needed */
-  opacity: 0.3; /* Adjust the opacity to 30% */
+  height: 99%;
+  background-color: black; 
+  opacity: 0.3;
 }
 
 .fill2::after {
@@ -87,9 +83,9 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 33.5%;
-  background-color: black; /* Change the color as needed */
-  opacity: 0.3; /* Adjust the opacity to 30% */
+  height: 95.5%;
+  background-color: black; 
+  opacity: 0.3; 
 }
 
 .fill3::after {
@@ -97,10 +93,10 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 120%;
-  height: 86.5%;
-  background-color: black; /* Change the color as needed */
-  opacity: 0.4; /* Adjust the opacity to 30% */
+  width: 100%;
+  height: 99%;
+  background-color: black; 
+  opacity: 0.3; 
 }
 
 .fill4::after {
@@ -115,6 +111,7 @@
 }
 
 
+
 .image3 {
   position: relative;
   top: 0;
@@ -123,10 +120,10 @@
 }
 .image2 {
   position: absolute;
-  top: 50px;
+  top: 90px;
   left: 75px;
-  height: 40px;
-  
+  height: 50px;
+
 }
 .famto {
   position: absolute;
@@ -136,6 +133,98 @@
   color: white;
   font-size: 24px;
   font-weight: bold;
+}
+
+
+.table {
+  width:50%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 26px;
+  text-align: left;
+  table-layout: fixed; 
+}
+
+.table th{
+  padding: 36px 39px;
+  border: 1px solid #ddd;
+}
+
+.table td {
+  padding: 36px 39px;
+  border: 1px solid #ddd;
+  font-family: Poppins;
+}
+
+
+.table tr {
+  text-align: left;
+}
+
+
+.contact-form-container {
+  background: #eafafc;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: left;
+}
+
+.contact-form-container h2 {
+  margin-left: 20px;
+  font-size: 50px;
+  font-family: Poppins,sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  justify-content: row;
+  align-items: left;
+  margin-bottom: 15px;;
+}
+
+.form-group label {
+  width: 30%;
+  text-align: left;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 95%;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 30px;
+  background:#ebe1e14f;
+  color:black;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  color: red;
+}
+
+
+
+form button {
+  
+
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 24px;
+  background: #00ced1;;
+}
+
+form button:hover {
+  background-color: #c1cdcd;
 }
 
 .gradient-element {
@@ -176,3 +265,4 @@
 }
 
  
+
