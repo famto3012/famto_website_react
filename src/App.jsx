@@ -7,7 +7,7 @@ import Team from './team/Team.jsx';
 import Blog from './blog/Blog.jsx';
 import Contact from './contact/Contact.jsx';
 import Blogs from './blogs/Blogs.jsx';
-import TeamPic from './teams/TeamPic.jsx/index.js';
+import TeamPic from "./teams/TeamPic.jsx";
 
 
 function App() {
