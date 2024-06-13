@@ -7,6 +7,7 @@ import TermsAndConditions from './terms&conditions/TermsAndConditions.jsx'
 import FAQ from './faq/FAQ.jsx'
 import CancellationAndRefundPolicy from './cancellationandrefundpolicy/CancellationAndRefundPolicy.jsx'
 import PrivacyPolicy from './privacypolicy/PrivacyPolicy.jsx'
+import ContactForm from './contactform/ContactForm.jsx'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Route path="/faq" element={<FAQ/>} />
       <Route path="/refundpolicy" element={<CancellationAndRefundPolicy />}/>
       <Route path="/privacy" element={<PrivacyPolicy />}/>
+      <Route path="/contactform" element={<ContactForm />} />
     </Routes>
     </BrowserRouter>
   );
