@@ -2,6 +2,8 @@
   font-family:Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  max-width: 100vw;
+  width: 100%;
 
   color-scheme: light dark;
   color: #140b0bde;
@@ -29,6 +31,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  max-width: 100vw;
 }
 
 list{
@@ -39,6 +42,7 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+
 
 button {
   border-radius: 8px;

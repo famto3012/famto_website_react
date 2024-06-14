@@ -1,16 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Footer from "../footer/Footer";
 const PrivacyPolicy =() =>{
     return(
       <section>
         <div className="parent">
         <div className="fill3">
-        <img className="image1" style={{width:"2950px"}} src="privacy.svg" />
+        <img className="image1" style={{width:"100%"}} src="privacy.svg" />
         </div>
         <Link to="/home"><img className="image2" src="logo.svg" /></Link>
-        <div className="famto" style={{marginTop:"21px", fontSize:"xx-large"}}>Privacy Policy</div>
+        <div className="famto" style={{marginTop:"7px", fontSize:"20px" ,fontFamily:"Poppins"}}>Privacy Policy</div>
         </div><br/>
-      <section style={{width:"2800px",marginLeft:"75.5px"}}>
+      <section style={{width:"100%"}}>
+        <div style={{ maxWidth:"100vw",marginLeft:"75px", marginRight:"50px"}}>
       <h3 style={{textAlign:"left"}}>Privacy Policy</h3>
       <p style={{textAlign:"left", fontFamily:"Poppins"}}>
       This website privacy policy (<span style={{color:"black", fontWeight:"bold", fontFamily:"sans-serif"}}>“Privacy Policy”</span> or <span style={{color:"black", fontWeight:"bold",fontFamily:"sans-serif"}}>“Policy”</span>) describes My Famto’s use, and disclosure of information about you in connection with your use of the domain and mobile application including all linked domains integrated within the site, (herein after together referred to as <span style={{color:"black", fontWeight:"bold",fontFamily:"sans-serif"}}>“Site”</span> or <span style={{color:"black", fontWeight:"bold",fontFamily:"sans-serif"}}>“Website”</span>). The terms “we”, “us” or “our”, refer to the site. When you use the service available at our website, you consent to our collection, use, and disclosure of information about you as described in this Privacy Policy. This Privacy Policy does not apply to any information you may provide while on such third-party websites. We encourage you to carefully read the privacy policies on those third-party websites before providing any of your information on such sites. We reserve the right to update, change, amend or modify this Privacy Policy at any time and said changes will be effective upon posting. Every time there is a change, we will display a notice on our Site thereof. We may also notify you by email, in our discretion. We will use your personal information in a manner consistent with the Privacy Policy in effect at the time you submitted the information, unless you consent to the new or revised policy. 
@@ -146,8 +148,10 @@ const PrivacyPolicy =() =>{
       <p style={{textAlign:"left", fontFamily:"Poppins"}}>
       16.1 We welcome your comments regarding this privacy statement at the contact address given at the website. Should there be any concerns about contravention of this Privacy Policy, we will employ all commercially reasonable efforts to address the same. The terms in this Policy may be changed by us at any time. We are free to offer its services to any client/prospective client without restriction. 
       </p>
+      
 
-
+     </div><br/>
+     <Footer />
     </section>
     </section>
     );

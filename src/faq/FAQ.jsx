@@ -1,18 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Footer from "../footer/Footer";
 const FAQ = () =>{
     return(
         <section>
             
                 <div className="parent">
                 <div className="fill2">
-                <img className="image1" style={{width:"2945px", height:"95%"}} src="faq.svg" />
+                <img className="image1" style={{width:"100%", height:"95%"}} src="faq.svg" />
                 </div>
                 <Link to="/home"><img className="image2" src="logo.svg"/></Link>
-                <div className="famto" style={{top:"85%"}}>FAQ</div><br/>
+                <div className="famto" style={{top:"85%", fontFamily:"Poppins"}}>FAQ</div><br/>
                 </div>
                 <br/><br/>
-                <section style={{width:"2800px", marginLeft:"75px"}}>
+                <section style={{width:"100%"}}>
+                    <div style={{marginLeft:"70px", marginRight:"65px", maxWidth:"100vw"}}>
                 <h3 style={{textAlign:"left"}}>What is custom order?</h3>
                 <p style={{textAlign:"left", fontFamily:"Poppins"}}>
                 Order anything from any nearby Store. the Delivery boy will shop for you and deliver to your door steps. Eg : You may want to order Water Bottle, Cold Drink, snacks for a quick party you may have arranged. You can select a Store from your nearby area on the App and put all order detail. The service provider will receive order and will go to your selected store and handpick all items. He will confirm price and detail with you and then purchase the items and deliver to your home instantly. You will be able to see his location in real time on map while he is bringing items to your home.
@@ -96,6 +98,8 @@ const FAQ = () =>{
                 <p style={{textAlign:"left", fontFamily:"Poppins"}}>
                 Please check for the message in your registered mobile number/ Mail ID,if not there, then please share the details to <strong><a href="mailto:contact@famto.in">contact@famto.in</a></strong>.
                 </p>
+                </div><br/>
+                <Footer />
             </section>
         </section>
     );

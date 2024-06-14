@@ -13,9 +13,8 @@ const TeamPic =() => {
     return (
 
         <section style={{width:"1500px", backgroundColor:"white"}}>
-        <div>
-            Team
-        </div>
+        
+      
         <div style={{marginLeft:"80px"}}>
             <Row >
         <Col span={6}><Card style={{width:"280px",height:"385px"}}    cover={<img alt="example"  src="team1.svg" />} >

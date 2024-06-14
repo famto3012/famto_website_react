@@ -1,17 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Footer from "../footer/Footer";
 const TermsAndConditions = () =>{
     return(
         <section>
         <div className="parent">
         <div className="fill1">
-        <img className="image1" style={{width:"2979px"}} src="terms.svg"/>
+        <img className="image1" style={{width:"100%"}} src="terms.svg"/>
         </div>
         <Link to="/home"><img className="image2" src="logo.svg"/></Link>
-        <div className="famto">Terms And Conditions</div>
+        <div className="famto" style={{fontSize:"20px", fontFamily:"Poppins"}}>Terms and Conditions</div>
         </div><br/>
-        <section style={{width:"2790px", marginLeft:"70px"}}>
-        <div className="content"></div>
+        <section style={{width:"100%"}}>
+        <div style={{marginLeft:"60px", maxWidth:"100vw", marginRight:"50px"}}>        
         <h3 style={{textAlign:"left"}}>General Terms</h3>
         <p style={{textAlign:"left", fontFamily:"Poppins"}}>
         By accessing and placing an order with Famto , you confirm that you are in agreement with and bound by the terms of service contained in the Terms & Conditions outlined below. These terms apply to the entire website and any email or other type of communication between you and Famto.
@@ -242,7 +243,8 @@ const TermsAndConditions = () =>{
         
         
         
-        
+       </div>  <br/>
+       <Footer />
        </section>
         </section>
     );
