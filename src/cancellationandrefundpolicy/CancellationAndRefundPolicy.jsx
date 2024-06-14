@@ -1,18 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Footer from "../footer/Footer";
 const CancellationAndRefundPolicy = () =>{
     return(
-        <section>
+        <section >
          <div className="parent">
          <div className="fill1">
-           <img className="image1" style={{width:"2954px"}} src="refund.svg"/>
+           <img className="image1" style={{width:"100%"}} src="refund.svg"/>
            </div>
            <Link to="/home"><img className="image2" src="logo.svg"/></Link>
-           <div className="famto">Cancellation And Refund Policy</div>
-         </div>
-         <section style={{width:"2800px", marginLeft:"75px"}}>
+           <div className="famto" style={{fontFamily:"Poppins"}}>Cancellation and Refund Policy</div>
+         </div><br/>
+         <section style={{width:"100%"}}>
+          <div  style={{marginLeft:"100px",maxWidth:"100vw",marginRight:"100px",textAlign:"left"}}>
             <h3 style={{textAlign:"left"}}>Cancellation Policy</h3>
-            <p style={{textAlign:"left", fontFamily:"Poppins"}}>
+            <p style={{textAlign:"left",marginLeft:"0px" ,fontFamily:"Poppins"}}>
             <ul>
                 <li>
                 If you want to cancel the order please notify us within 5 Minutes of placing the order via chat head. 
@@ -102,8 +104,10 @@ const CancellationAndRefundPolicy = () =>{
             </div>
             <h3 style={{textAlign:"left"}}>Customer Service</h3>
             <p style={{textAlign:"left", fontFamily:"Poppins"}}>
-            If you have any queries on Cancellation and Refund policy please contact us directly: Phone No: +91 97781 80794   or email: <strong><a href="mailto:contact@famto.in">contact@famto.in</a></strong>
+            If you have any queries on Cancellation and Refund policy please contact us directly: Phone No: +91 97781 80794   or  email: <strong><a href="mailto:contact@famto.in">contact@famto.in</a></strong>
             </p>
+            </div><br/>
+            <Footer />
          </section>
         </section>
     );

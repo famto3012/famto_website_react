@@ -9,10 +9,10 @@ const Contact = () => {
 
         <section style={{backgroundColor:"white"}}>
             <div className="parent">
-                <div  className="fill1" >
-                <img className="image1" style={{width:"1540px",opacity:"100%"}} src="contact.svg"></img></div>
+                <div  className="fill6" >
+                <img className="image1" style={{width:"100%",opacity:"100%"}} src="contact.svg"></img></div>
                 <Link to="/home"> <img class="image2" src="logo.svg" /></Link>
-                <div className="famto" style={{color:"white",top:"42%"}}>Contact Us</div>
+                <div className="famto" style={{color:"white",top:"42%",fontFamily:"Poppins",fontSize:"20px"}}>Contact Us</div>
                 <div><br></br>
                     <Row>
                <Col span={10} style={{color:"black",textAlign:"left",marginLeft:"10px"}}>

@@ -9,10 +9,10 @@ const Team = () => {
 
         <section style={{backgroundColor:"white"}}>
             <div className="parent">
-                <div className="fill">
-                <img className="image3" style={{width:"1540px"}} src="team.svg"></img></div>
+                <div className="fill9">
+                <img className="image3" style={{width:"100%"}} src="team.svg"></img></div>
                 <Link to="/home"><img class="image2" src="logo.svg" /></Link>
-                <div className="famto">Team Famto</div>
+                <div className="famto" style={{fontFamily:"Poppins"}}>Team Famto</div>
             </div>
             
         <div style={{color:"black", textAlign:"justify",padding:"60px"}}>
