@@ -20,8 +20,6 @@ const sliderVariants = {
   },
 };
 
-
-
 const HomePage = () => {
   const clients = [
     "anim1.svg",
@@ -96,7 +94,9 @@ const HomePage = () => {
             marginBottom: "40px",
           }}
         >
-          <ul style={{ fontWeight: "bold", fontSize: "20px", textAlign: "left" }}>
+          <ul
+            style={{ fontWeight: "bold", fontSize: "20px", textAlign: "left" }}
+          >
             Our Services
           </ul>
           <Row style={{ marginTop: "40px", width: "90vw" }}>
@@ -126,8 +126,10 @@ const HomePage = () => {
           />
         </div>
         <br />
-        <div style={{ width: "100vw" }}>
-          <h2 style={{ textAlign: "left", fontSize: "20px", marginLeft: "30px" }}>
+        <div style={{ width: "100vw", overflowX: "hidden" }}>
+          <h2
+            style={{ textAlign: "left", fontSize: "20px", marginLeft: "30px" }}
+          >
             Our Esteemed Clients
           </h2>
           <motion.div
@@ -147,8 +149,10 @@ const HomePage = () => {
             ))}
           </motion.div>
         </div>
-      </div><br/>
-            <Footer />
+      </div>
+      <br />
+
+      <Footer />
     </section>
   );
 };
