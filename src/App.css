@@ -1,9 +1,22 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  font-size: 14px;
+  /* margin: 0 auto; */
+  /* max-width: 100%; */
+  /* padding: 2rem; */
   text-align: center;
+  /* font-family: Poppins; */
+  width: 100vw;
+  height: 100vh;
+  
 }
+
+h3{
+  font-size: 20px;
+  
+  font-weight: bold;
+}
+
+
 
 .logo {
   height: 6em;
@@ -15,7 +28,7 @@
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em hsla(0, 0%, 100%, 0.992));
 }
 
 @keyframes logo-spin {
@@ -39,4 +52,285 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.blur{
+  position: absolute;
+}
+
+.fill::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+  background-color: black; 
+  opacity: 0.3; 
+}
+
+.fill1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 99%;
+  background-color: black; 
+  opacity: 0.3;
+}
+
+.fill2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 95.2%;
+  background-color: black; 
+  opacity: 0.3; 
+}
+
+.fill3::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 99%;
+  background-color: black; 
+  opacity: 0.3; 
+}
+
+.fill4::after {
+  content: "";
+  position: absolute;
+  margin-top: -290px;
+  left: 0;
+  width: 100%;
+  height: 233%;
+  background-color: black; /* Change the color as needed */
+  opacity: 0.3; /* Adjust the opacity to 30% */
+}
+
+.fill5::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 99%;
+  background-color: black; /* Change the color as needed */
+  opacity: 0.3; /* Adjust the opacity to 30% */
+}
+
+.fill6::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 42.2%;
+  background-color: black; /* Change the color as needed */
+  opacity: 0.3; /* Adjust the opacity to 30% */
+}
+
+.fill7::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 33.5%;
+  background-color: black; /* Change the color as needed */
+  opacity: 0.3; /* Adjust the opacity to 30% */
+}
+
+.fill8::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 86.5%;
+  background-color: black; /* Change the color as needed */
+  opacity: 0.4; /* Adjust the opacity to 30% */
+}
+
+.fill9::after {
+  content: "";
+  position: absolute;
+  margin-top: -38%;
+  left: 0;
+  width: 100%;
+  height: 111.5%;
+  background-color: black; /* Change the color as needed */
+  opacity: 0.3; /* Adjust the opacity to 30% */
+}
+
+
+
+.fill10::after {
+  content: "";
+  position: absolute;
+  margin-top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black; /* Change the color as needed */
+  opacity: 0.3; /* Adjust the opacity to 30% */
+}
+
+.fill11::after {
+  content: "";
+  position: absolute;
+  margin-top: 0;
+  left: 0;
+  width: 100%;
+  height: 99%;
+  background-color: black; /* Change the color as needed */
+  opacity: 0.4; /* Adjust the opacity to 30% */
+}
+
+
+
+.image3 {
+  position: relative;
+  top: 0;
+  left: 0;
+
+}
+.image2 {
+  position: absolute;
+  top: 40px;
+  left: 75px;
+  height: 30px;
+
+}
+.famto {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+.table {
+  width: 60%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 14px;
+  text-align: left;
+  table-layout: fixed; 
+}
+
+.table th{
+  padding: 36px 39px;
+  border: 1px solid #ddd;
+}
+
+.table td {
+  padding: 36px 39px;
+  border: 1px solid #ddd;
+  font-family: Poppins;
+}
+
+
+.table tr {
+  text-align: left;
+}
+
+
+.bg{
+  background: linear-gradient(to right,#00CED1,#005253);
+}
+
+ 
+.contact-form-container{
+  background-color: #e9f3f3;
+  width: 70%;
+  padding: 3%;
+  margin-left: 190px;
+}
+
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-control{
+  margin
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  box-sizing: border-box;
+  background-color:white;
+  font-family: Poppins;
+  color: black;
+}
+
+textarea {
+  width: 90%;
+  height: 130px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  box-sizing: border-box;
+  background-color: white;
+  font-family: Poppins;
+  color:black;
+}
+
+button[type="submit"] {
+  background-color: #00ced1;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 90%;
+  font-family: Poppins;
+  top:20px;
+}
+
+button[type="submit"]:hover {
+  background-color: #00ced1;
+}
+
+.delivery-container{
+  background-color: #eaf9fb;
+  width:80%;
+  padding: 2%;
+  margin-left: 150px;
 }
